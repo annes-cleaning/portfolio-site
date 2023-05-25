@@ -1,0 +1,22 @@
+<!-- Portfolio image -->
+
+<div class="col-lg-4 col-sm-6">
+    <a href="#" class="portfolio-box">
+        <img src="{{ include.src }}" class="img-responsive" 
+             style="object-fit: cover;
+  					width: 100%;
+  					height: 100%; 
+  					height: 350px;" 
+  			 alt="">
+        <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                    {{ include.category }}
+                </div>
+                <div class="project-name">
+                    {{ include.name }}
+                </div>
+            </div>
+        </div>
+    </a>
+</div>

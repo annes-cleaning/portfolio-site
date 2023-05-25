@@ -349,3 +349,8 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
+// Other styles
+.image-cover {
+  object-fit: cover;
+  object-position: right top;
+}
