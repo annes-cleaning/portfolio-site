@@ -88,6 +88,13 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
+    	padding-left: 0px;
+    	padding-right: 0px;
+    	
+    	margin-left: 0px;
+    	margin-right: 0px;
+    	
+    	font-size: 14px;
         color: $theme-primary;
         @include sans-serif-font;
         font-weight: 700;
