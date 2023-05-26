@@ -34,8 +34,12 @@
 // }
 
 // variables.less
-$theme-primary: #F05F40;
+$theme-primary: darken(#daa520, 5%); 	// #F05F40;	// tomato
 $theme-dark: #222;
+
+// call-to-action
+$logo-text:  	darken(#26619c, 3%); 	// blue
+$logo-border: 	#f4c430;				// gold
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
